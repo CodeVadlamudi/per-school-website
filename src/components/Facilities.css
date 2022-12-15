@@ -1,0 +1,98 @@
+.facility {
+  position: relative;
+  padding: 0;
+  margin: 90px 0;
+}
+
+.facility__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.facility__title > h1 {
+  margin-bottom: 20px;
+}
+
+.facility__row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.facility__col {
+  padding: 0;
+  margin: 0;
+  width: 25%;
+  border-radius: 4px;
+}
+
+.facility__details {
+  padding: 25px;
+  text-align: center;
+  transition: 0.5s all;
+  margin: 10px;
+}
+
+.facility__details > .MuiSvgIcon-root {
+  font-size: 50px;
+}
+
+.facility__details > h3 {
+  font-family: "Lobster";
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.facility__col:nth-child(1) .facility__details {
+  background-color: #fff5f3;
+  color: var(--orange);
+}
+
+.facility__col:nth-child(1) .facility__details:hover {
+  background-color: var(--orange);
+  color: white;
+}
+
+.facility__col:nth-child(2) .facility__details {
+  background-color: #e8f3ee;
+  color: #198754;
+}
+
+.facility__col:nth-child(2) .facility__details:hover {
+  background-color: #198754;
+  color: white;
+}
+
+.facility__col:nth-child(3) .facility__details {
+  background-color: #fff9e7;
+  color: #ffc107;
+}
+
+.facility__col:nth-child(3) .facility__details:hover {
+  background-color: #ffc107;
+  color: white;
+}
+
+.facility__col:nth-child(4) .facility__details {
+  background-color: #e7fafe;
+  color: #0dcaf0;
+}
+
+.facility__col:nth-child(4) .facility__details:hover {
+  background-color: #0dcaf0;
+  color: white;
+}
+
+@media only screen and (max-width: 992px) {
+  .facility__col {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    .facility__col {
+      width: 100%;
+    }
+  }
+  

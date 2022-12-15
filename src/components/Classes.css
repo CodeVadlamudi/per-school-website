@@ -1,0 +1,159 @@
+.classes {
+  position: relative;
+  margin: 90px 0;
+  padding: 0;
+}
+
+.classes__title {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 0 20px;
+}
+
+.classes__title > p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.classes__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.classes__col {
+  width: 33.33%;
+}
+
+.classes__details {
+  margin: 10px;
+  background-color: #fff5f3;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.classes__details > img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.classes__details > h3 {
+  font-family: "Lobster";
+  font-size: 30px;
+  font-weight: 500;
+  margin: 30px 0;
+}
+
+.classes__details > h3:hover {
+  color: var(--orange);
+}
+
+.classes__avatarRupees {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.classes__user {
+  display: flex;
+  align-items: center;
+}
+
+.classes__user > img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.classes__userName {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.classes__userName > h4 {
+  color: var(--orange);
+  font-weight: bold;
+}
+
+.classes__avatarRupees > button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: var(--orange);
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+}
+
+.classes__ageTimeCapacity {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.classes__age {
+  border-top: 2px solid var(--orange);
+  padding-top: 2px;
+  width: 100%;
+}
+
+.classes__age > h4 {
+  color: var(--orange);
+  font-weight: bold;
+}
+
+.classes__age > span {
+  font-size: 15px;
+  color: grey;
+}
+
+.classes__time {
+  border-top: 2px solid var(--green);
+  padding-top: 2px;
+  width: 100%;
+}
+
+.classes__time > h4 {
+  color: var(--green);
+  font-weight: bold;
+}
+
+.classes__time > span {
+  font-size: 15px;
+  color: grey;
+}
+
+.classes__capacity {
+  border-top: 2px solid var(--yellow);
+  padding-top: 2px;
+  width: 100%;
+}
+
+.classes__capacity > h4 {
+  color: var(--yellow);
+  font-weight: bold;
+}
+
+.classes__capacity > span {
+  font-size: 15px;
+  color: grey;
+}
+
+@media only screen and (max-width: 992px) {
+  .classes__col {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .classes__col {
+    width: 100%;
+  }
+}
