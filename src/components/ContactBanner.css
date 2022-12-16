@@ -1,4 +1,4 @@
-.contact__banner {
+.classBanner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../../public/images/hero.jpg");
     background-size: cover;
@@ -8,19 +8,19 @@
     position: relative;
   }
   
-  .contact__title {
+  .classBanner__title {
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
       padding: 0 40px;
   }
   
-  .contact__title > h1 {
+  .classBanner__title > h1 {
       font-size: 50px;
       color: white;
   }
   
-  .contact__title > p {
+  .classBanner__title > p {
       max-width: 500px;
       margin-top: 30px;
       color: white;

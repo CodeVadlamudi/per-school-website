@@ -3,9 +3,9 @@ import "./AboutBanner.css";
 
 function AboutBanner() {
   return (
-    <div className="banner">
+    <div className="aboutBanner">
       <div className="container">
-        <div className="about__banner">
+        <div className="aboutBanner__title">
           <h1>About Us</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio aut, mollitia pariatur quasi numquam doloribus. Quibusdam illum cupiditate consequatur.</p>
         </div>
